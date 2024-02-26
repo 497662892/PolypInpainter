@@ -3,7 +3,7 @@
 
 
 ## 🔆 Introduction
-This is a PyTorch/GPU implementation of the paper "Generalize Polyp Segmentation via Inpainting across Diverse Backgrounds and Pseudo-Mask Refinement"
+This is a PyTorch/GPU implementation of the paper "Generalize Polyp Segmentation via Inpainting across Diverse Backgrounds and Pseudo-Mask Refinement" at IEEE ISBI-2024.
 
 ✨ Code and pre-trained models are coming soon, please stay tuned ✨
 
