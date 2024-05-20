@@ -5,11 +5,11 @@ export OUTPUT_DIR="/home/user01/majiajian/code/diffusion/diffusers/output_model/
 export HF_HUB_OFFLINE=1
 export validation_list="/home/user01/majiajian/code/diffusion/diffusers/examples/inpaint/concept_list/0430/removing_validation_list_0430.json"
 
-accelerate launch scripts/polyp/train_inpaint.py \
+accelerate launch scripts/train_inpaint.py \
   --pretrained_model_name_or_path=$MODEL_NAME  \
   --resume_from_checkpoint="latest" \
   --instance_data_dir="/home/user01/majiajian/data/polyp/negatives" \
-  --instance_mask_dir="/home/user01/majiajian/data/polyp/SUN-SEG_10/TrainDataset_10/masks" \
+  --instance_mask_dir="/home/user01/majiajian/data/polyp/Kvasir-SEG/trainval/masks" \
   --instance_prompt="an endoscopic image" \
   --subfolders \
   --remove=True \
