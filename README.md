@@ -3,11 +3,11 @@
 
 
 ## 🔆 Introduction
-This is a PyTorch implementation of the paper "Generalize Polyp Segmentation via Inpainting across Diverse Backgrounds and Pseudo-Mask Refinement" at IEEE ISBI-2024. In this paper, we proposed an inpainting based data augmentation method that can significantly enchance the generalization of polyp segmentation models.
+This is a PyTorch implementation of the paper **"Generalize Polyp Segmentation via Inpainting across Diverse Backgrounds and Pseudo-Mask Refinement"** at IEEE ISBI-2024. In this paper, we proposed an inpainting based data augmentation method that can significantly enchance the generalization of polyp segmentation models.
 
 The overview of our data augmentation pipeline is shown below:
 ![image](https://github.com/497662892/PolypInpainter/blob/main/imgs/pipeline.png)
-which includes 5 different components: Training Inpainting Model, Generating Inpainting Images, Pseudo-mask Refinement, Suitible cases selection, and Training Segmentation Model.
+which includes 5 different components: **Training Inpainting Model**, **Generating Inpainting Images**, **Pseudo-mask Refinement**, **Suitible cases selection**, and **Training Segmentation Model**.
 
 The framework of our proposed data augmentation method is shown below:
 ![image](https://github.com/497662892/PolypInpainter/blob/main/imgs/inpaint_model.PNG)
@@ -150,6 +150,8 @@ To train the augmentation segmentation model, you can run the following command,
 cd Polyp-PVT
 nohup bash bash/polyp/aug/train_aug.sh  > "your training log path" &
 ``` 
+
+By modified the "--align_score_cutoff" and "--prediction_score_cutoff" we can select different synthetic cases for model training.
 
 ## Tesing Segmentation Model
 
