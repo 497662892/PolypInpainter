@@ -1,0 +1,20 @@
+Start testing SUN-SEG_10_test
+The number of test images is: 1574
+SUN-SEG_10_test dice is : 0.8253675984752215
+SUN-SEG_10_test Finish!
+Start testing Kvasir-SEG
+The number of test images is: 1000
+Kvasir-SEG dice is : 0.8143110000000002
+Kvasir-SEG Finish!
+Start testing CVC-ClinicDB
+The number of test images is: 612
+CVC-ClinicDB dice is : 0.8358331699346403
+CVC-ClinicDB Finish!
+Start testing CVC-300
+The number of test images is: 300
+CVC-300 dice is : 0.8498069999999994
+CVC-300 Finish!
+Start testing ETIS-LaribPolypDB
+The number of test images is: 196
+ETIS-LaribPolypDB dice is : 0.7781403061224491
+ETIS-LaribPolypDB Finish!
