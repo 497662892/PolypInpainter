@@ -11,7 +11,7 @@ which includes 5 different components: Training Inpainting Model, Generating Inp
 
 The framework of our proposed data augmentation method is shown below:
 ![image](https://github.com/497662892/PolypInpainter/blob/main/imgs/inpaint_model.PNG)
-![image](https://github.com/497662892/PolypInpainter/blob/main/imgs/refinement.pdf)
+![image](https://github.com/497662892/PolypInpainter/blob/main/imgs/refinement.png)
 
 ## Checkpoints
 The checkpoints we use in this project are available at baidupan:
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### Preparations
 
-Before running the training code, please make sure you have downloaded the pretrained stable diffusion inpaint 1.5 in https://huggingface.co/runwayml/stable-diffusion-inpainting.
+Before running the training code, please make sure you have downloaded the pretrained [stable diffusion inpaint 1.5](https://huggingface.co/runwayml/stable-diffusion-inpainting).
 
 You also need to update the concept list for validation via "diffuser/inpaint/concept_list/make_concept_list.ipynb".
 
